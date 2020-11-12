@@ -22,7 +22,7 @@ public class LibraryController {
 
         model.addAttribute("authors", authorRepository.findAll());
 
-        // Timto navratovym retezcem rikame MVC, ze chceme na ziskany model aplikovat template list z adresare books
+        // Timto navratovym retezcem rikame MVC, ze chceme na ziskany model aplikovat template list z adresare authors
         return "authors/list";
     }
 

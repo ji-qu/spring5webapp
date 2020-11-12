@@ -55,6 +55,9 @@ Got a question about your Spring Framework 5 course? [Checkout these FAQs!](http
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
 
+## Start Application from Command line via Maven
+mvn spring-boot:run
+
 ## Application Links
 * [H2 Console](http://localhost:8080/h2-console)
 * [Author List](http://localhost:8080/authors)
